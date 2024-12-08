@@ -1,28 +1,28 @@
-# Proyecto REST API en PHP
+# REST API project in PHP
 
-Este proyecto implementa una API REST básica en PHP que responde a la solicitud `GET` en el endpoint `/api/hello`.
+This project implements a basic REST API in PHP that responds to the `GET` request on the `/api/hello` endpoint.
 
-## Instrucciones para ejecutar el proyecto
+## Instructions to run the project
 
-### Usando Docker
+### Using Docker
 
-1. Clona este repositorio en tu máquina local.
-2. Construye la imagen de Docker con el siguiente comando:
+1. Clone this repository to your local machine.
+2. Build the Docker image with the following command:
 
    ```bash
    docker build -t php-restapi .
    ```
-3. Ejecuta el contenedor con:
+3. Run the container with:
 
    ```bash
    docker run -d -p 8080:80 --name restapi-container php-restapi
    ```
-4. Accede a la aplicación en tu navegador:
-- Página principal: http://localhost:8080
-- Endpoint de la API: http://localhost:8080/api/hello.php
+4. Access the application in your browser:
+- Home page: http://localhost:8080
+- API endpoint: http://localhost:8080/api/hello.php
 
-5. Pruebas del REST API
-Puedes probar la API utilizando Postman o simplemente un navegador. Al acceder al endpoint /api/hello.php, deberías recibir una respuesta como la siguiente:
+5. Testing the REST API
+You can test the API using Postman or just a browser. When accessing the /api/hello.php endpoint, you should receive a response like the following:
    ```json
    {
     "message": "Hola desde la API",
