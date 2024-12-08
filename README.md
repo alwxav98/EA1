@@ -3,6 +3,14 @@
 This project implements a basic REST API in PHP that responds to the `GET` request on the `/api/hello` endpoint.
 
 ## Instructions to run the project
+### Prerequisites
+1. Make sure you have Docker installed on your machine.
+2. Clone this repository to your local machine:
+
+   ```bash
+   git clone  https://github.com/alwxav98/EA1RestApi.git
+   cd  EA1RestApi
+   ```
 
 ### Using Docker
 
